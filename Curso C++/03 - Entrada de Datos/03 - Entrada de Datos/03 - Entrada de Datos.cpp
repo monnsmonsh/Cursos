@@ -5,13 +5,13 @@
 using namespace std;
 
 int main() {
-	//var donde se guarda el numero
-	int num;
 
-	cout << "Digita un numero entero: ";
+	int num;//definimos variable
+
+	cout << "Digita un numero: ";
 
 	//solicitamos el numero
-	cin >> num;
+	cin >> num;//guardamos num en la variable
 
 	cout << "\n El numero de que digito es: " << num;
 
