@@ -1,0 +1,4 @@
+﻿  Ecuacion de 2do Grado.cpp
+C:\Users\monnsmonsh\Desktop\Programacion desde Cero\Curso C++\07 - Ecuacion de 2do Grado\07 - Ecuacion de 2do Grado\Ecuacion de 2do Grado.cpp(27,57): warning C4244: '=': conversión de 'double' a 'float'; posible pérdida de datos
+C:\Users\monnsmonsh\Desktop\Programacion desde Cero\Curso C++\07 - Ecuacion de 2do Grado\07 - Ecuacion de 2do Grado\Ecuacion de 2do Grado.cpp(28,57): warning C4244: '=': conversión de 'double' a 'float'; posible pérdida de datos
+  07 - Ecuacion de 2do Grado.vcxproj -> C:\Users\monnsmonsh\Desktop\Programacion desde Cero\Curso C++\07 - Ecuacion de 2do Grado\Debug\07 - Ecuacion de 2do Grado.exe
