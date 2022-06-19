@@ -1,0 +1,52 @@
+<html lang="en">
+<head>
+     <title>Javascript Functions</title>
+     <script language="javascript" type="text/javascript">
+          function sayHello(){
+               document.write("Hola Mundo");
+          }
+     </script>
+
+     <script language="javascript" type="text/javascript">
+          function sayHello2(name,age){
+               document.write(name+" tu edad es "+age);
+               }
+     </script>
+
+     <script language="javascript" type="text/javascript">
+          function sayHello3(name,age){
+
+               //agregamos un condcional que si esta vacios regresar
+               if(name==""|| age=="")
+                    return;
+               document.write(name+" tu edad es "+age);
+               }
+     </script>
+</head>
+
+<body>
+     <h1>Funciones</h1>
+     <p>Da Click para llamar la Funccion 1 </p>
+     <form>
+          <input type="button" onclick="sayHello()" value="say Hello">
+     </form>
+     <br/>
+
+     <p>Da Click para llamar la Funccion 2 </p>
+     <form>
+          <input name="t1" placeholder="Tu nombre"><br/>
+          <input name="t2" placeholder="Tu edad"><br/>
+          <input type="button" onclick="sayHello2(t1.value, t2.value)" value="say Hello">
+     </form>
+     <br/>
+
+     <p>Da Click para llamar la Funccion 3 </p>
+     <form>
+          <input name="t1" placeholder="Tu nombre"><br/>
+          <input name="t2" placeholder="Tu edad"><br/>
+          <input type="button" onclick="sayHello3(t1.value, t2.value)" value="say Hello">
+     </form>
+     <br/>
+ 
+</body>
+</html>

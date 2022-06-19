@@ -1,0 +1,43 @@
+<html lang="en">
+<head>
+     <title>Javascript Functions</title>
+
+</head>
+
+<body>
+     <h1>objetos</h1>
+     <h2>version 1</h2>
+     <br/>
+     <script language="javascript" type="text/javascript">
+          var tutorial={
+               "topic": "javascript",
+               "trainer": "John",
+               "mode": "online"
+          };
+          document.write("Materia: "+tutorial.topic);
+          document.write("<br/>");
+          document.write("Maestro: "+tutorial.trainer);
+          document.write("<br/>");
+          document.write("Modo: "+tutorial.mode);
+          document.write("<br/>");
+     </script>
+
+     <h2>version 2</h2>
+     <br/>
+     <script language="javascript" type="text/javascript">
+          var tutorial={
+               "topic": "javascript",
+               "trainer": "John",
+               "mode": "online"
+          };
+
+          var txt="";
+          var x;
+          for(x in tutorial){
+               txt += tutorial[x]+" , ";
+          }
+          document.write(txt)
+     </script>
+ 
+</body>
+</html>
